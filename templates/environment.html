@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>구현 환경</h1>
+
+<h2>Frontend</h2>
+<p>{{ data.frontend.framework }} ({{ data.frontend.language }}) — {{ data.frontend.description }}</p>
+
+<h2>Backend</h2>
+<p>{{ data.backend.framework }} ({{ data.backend.language }}) — {{ data.backend.description }}</p>
+
+<h2>Database</h2>
+<p>개발: {{ data.database.dev }} / 운영: {{ data.database.prod }}</p>
+
+<h2>배포 환경</h2>
+<p>로컬: {{ data.deploy.local }} / 클라우드: {{ data.deploy.cloud | join(', ') }}</p>
+
+<h2>버전 관리</h2>
+<p>{{ data.version_control.tool }} ({{ data.version_control.strategy }})</p>
+{% endblock %}

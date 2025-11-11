@@ -1,0 +1,21 @@
+{
+  "team_name": "네컷모아",
+  "members": [
+    {
+      "name": "김한욱",
+      "role": "팀장 / 풀스택 개발",
+      "tasks": ["기획 총괄", "백엔드 아키텍처 설계", "Docker & ECS 배포"]
+    },
+    {
+      "name": "임다빈",
+      "role": "프론트엔드 개발",
+      "tasks": ["Flutter UI 구현", "앱 구조 설계", "네이버 지도 API 연동"]
+    },
+    {
+      "name": "문한일",
+      "role": "백엔드 개발",
+      "tasks": ["Spring API 개발", "DB 설계", "JWT 인증 구현"]
+    }
+  ],
+  "advisor": "민준식 교수님"
+}

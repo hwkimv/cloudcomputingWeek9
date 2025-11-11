@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ko">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<head>
+    <meta charset="utf-8">
+    <title>{{ title or "캡스톤 소개" }}</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<nav>
+    <a href="/main">Main</a> |
+    <a href="/subject">Subject</a> |
+    <a href="/rationale">Rationale</a> |
+    <a href="/features">Features</a> |
+    <a href="/environment">Environment</a> |
+    <a href="/team">Team</a>
+</nav>
+<hr>
+{% block content %}{% endblock %}
+</body>
+</html>

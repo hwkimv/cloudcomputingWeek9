@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>실용적 근거</h1>
+<h2>문제 인식</h2>
+<p>{{ data.problem }}</p>
+
+<h2>근거</h2>
+<ul>
+    {% for e in data.evidence %}
+    <li>{{ e }}</li>
+    {% endfor %}
+</ul>
+
+<h2>해결 방안</h2>
+<p>{{ data.solution }}</p>
+
+<h2>기대 가치</h2>
+<ul>
+    {% for v in data.expected_value %}
+    <li>{{ v }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

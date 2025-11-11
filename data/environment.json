@@ -1,0 +1,24 @@
+{
+  "frontend": {
+    "framework": "Flutter",
+    "language": "Dart",
+    "description": "크로스플랫폼(안드로이드/iOS) UI 구현"
+  },
+  "backend": {
+    "framework": "Spring Boot 3",
+    "language": "Java 21",
+    "description": "JWT 인증, 앨범/친구/지도 API 제공"
+  },
+  "database": {
+    "dev": "H2 (로컬 테스트)",
+    "prod": "MariaDB (AWS RDS)"
+  },
+  "deploy": {
+    "local": "Docker Compose",
+    "cloud": ["AWS EC2", "AWS ECS (Fargate)"]
+  },
+  "version_control": {
+    "tool": "GitHub",
+    "strategy": "Git Flow (feature → dev → main)"
+  }
+}

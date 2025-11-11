@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>팀 구성</h1>
+<h2>{{ data.team_name }}</h2>
+<ul>
+    {% for m in data.members %}
+    <li><strong>{{ m.name }}</strong> — {{ m.role }}<br>
+        담당: {{ m.tasks | join(', ') }}</li>
+    {% endfor %}
+</ul>
+<p><strong>지도교수:</strong> {{ data.advisor }}</p>
+{% endblock %}

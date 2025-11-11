@@ -1,0 +1,11 @@
+{
+  "title": "네컷모아 (Nemo)",
+  "summary": "포토부스에서 찍은 네컷 사진을 QR코드로 자동 업로드하고, 감성적으로 정리·공유할 수 있는 앱입니다.",
+  "pages": [
+    {"name": "작품주제", "url": "/subject"},
+    {"name": "실용적 근거", "url": "/rationale"},
+    {"name": "핵심기능", "url": "/features"},
+    {"name": "구현환경", "url": "/environment"},
+    {"name": "팀 구성", "url": "/team"}
+  ]
+}
