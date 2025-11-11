@@ -4,7 +4,7 @@ services:
     build: .
     container_name: capstone-intro-web
     ports:
-      - "8080:8080"      # 호스트 8080 → 컨테이너 8080
+      - "80:80"      # 호스트 8080 → 컨테이너 8080
     restart: unless-stopped
     # (선택) 환경변수 파일 사용 시 해제
     # env_file:
